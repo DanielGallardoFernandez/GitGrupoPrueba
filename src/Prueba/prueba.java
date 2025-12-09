@@ -20,8 +20,13 @@ public class prueba {
 		return suma;
 	}
 	
-	public int multiplicarNumero() { //TODO Hugo se encarga de esta funcion
-		
+	public int multiplicarNumero(int num1, int num2) { // TODO Hugo se encarga de esta funcion
+		int multiplicacion;
+
+		multiplicacion = num1 * num2;
+
+		return multiplicacion;
+		}
 	}
 	
 	public static void main(String[] args) {
