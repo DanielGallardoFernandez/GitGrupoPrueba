@@ -14,8 +14,10 @@ public class prueba {
 		
 	}
 	
-	public int sumarNumero() { //TODO Jhonatan se encarga de esta funcion
-		
+	public int sumarNumero(int num1, int num2) { //TODO Jhonatan se encarga de esta funcion
+		int suma = num1 + num2;
+		System.out.println("La suma es: " +suma);
+		return suma;
 	}
 	
 	public int multiplicarNumero() { //TODO Hugo se encarga de esta funcion
