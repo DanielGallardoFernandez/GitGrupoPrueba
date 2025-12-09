@@ -1,28 +1,39 @@
 package Prueba;
 
+import java.util.Scanner;
+
 public class prueba {
-	public int pedirNumero() { // TODO Jorge se encarga de esta funcion
-
+	public int pedirNumero(int num1, num2) { //TODO Jorge se encarga de esta funcion
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Introduce el primer número");
+		num1 = keyboard.nextInt();
+		
+		System.out.println("Introduce el segundo número");
+		num2 = keyboard.hasNextBigInteger();
+		
 	}
-
-	public int sumarNumero() { // TODO Jhonatan se encarga de esta funcion
-
+	
+	public int sumarNumero(int num1, int num2) { //TODO Jhonatan se encarga de esta funcion
+		int suma = num1 + num2;
+		System.out.println("La suma es: " +suma);
+		return suma;
 	}
-
-	public int multiplicarNumero(int num1, int num2) { // TODO Hugo se encarga de esta funcion
-		int multiplicacion;
-
-		multiplicacion = num1 * num2;
-
-		return multiplicacion;
+	
+	public int multiplicarNumero() { //TODO Hugo se encarga de esta funcion
+		
 	}
-
+	
 	public static void main(String[] args) {
 		int num1, num2;
-
-		// Llamar a pedirNumero
-		// Llamar a sumarNumero
-		// Llamar a multipplicarNumero
+		System.out.println("Bienvenido a nuestro programa");
+		System.out.printf("Los numeros introducidos son: %d",pedirNumero());
+		System.out.printf("La suma de los numeros es: %d", sumarNumero());
+		System.out.printf("La multiplicacion de los numeros es: %d", multiplicarNumero());
+		System.out.printf("La division de los numeros es: %d", dividirNumero());
+		//Llamar a pedirNumero
+		//Llamar a sumarNumero
+		//Llamar a multipplicarNumero
 
 	}
 
