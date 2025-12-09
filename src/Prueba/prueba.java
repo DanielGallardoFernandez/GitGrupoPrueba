@@ -29,6 +29,13 @@ public class prueba {
 		}
 	}
 	
+	public int dividirNumero(int num1, int num2) { //TODO Daniel Vázquez se encarga de esta funcion
+		
+		int division = num1/num2;
+		return division;
+		
+	}
+	
 	public static void main(String[] args) {
 		int num1, num2;
 		System.out.println("Bienvenido a nuestro programa");
