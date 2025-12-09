@@ -15,7 +15,7 @@ public class prueba {
 	
 	public static void main(String[] args) {
 		int num1, num2;
-		
+		System.out.println("Bienvenido a nuestro programa");
 		//Llamar a pedirNumero
 		//Llamar a sumarNumero
 		//Llamar a multipplicarNumero
