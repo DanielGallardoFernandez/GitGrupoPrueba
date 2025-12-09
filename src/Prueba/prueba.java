@@ -1,7 +1,16 @@
 package Prueba;
 
+import java.util.Scanner;
+
 public class prueba {
-	public int pedirNumero() { //TODO Jorge se encarga de esta funcion
+	public int pedirNumero(int num1, num2) { //TODO Jorge se encarga de esta funcion
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Introduce el primer número");
+		num1 = keyboard.nextInt();
+		
+		System.out.println("Introduce el segundo número");
+		num2 = keyboard.hasNextBigInteger();
 		
 	}
 	
